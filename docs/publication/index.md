@@ -20,7 +20,7 @@ Tags are also used to show the type of publication. The BibTeX entry types are u
 <entry-type>article</entry-type> 
 [:octicons-link-16:](https://aclanthology.org/D19-1632/){.pub-link data-type='paper-link'}
 <bibtex-copy  title='Copy to clipboard' data-clipboard-text='@article{Mirdita2022-ms,
-  title    ={{ColabFold}: making protein folding accessible to all},
+  title    ={ColabFold: making protein folding accessible to all},
   author   ={Mirdita, Milot and Sch{\"u}tze, Konstantin and Moriwaki,
               Yoshitaka and Heo, Lim and Ovchinnikov, Sergey and Steinegger,
               Martin},
