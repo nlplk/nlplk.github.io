@@ -1,0 +1,56 @@
+site_name: nlp-lk
+site_url: https://nlplk.github.io/
+repo_url: https://github.com/nlplk/nlplk.github.io/
+repo_name: nlplk/nlplk.github.io
+theme:
+  # custom_dir: overrides
+  favicon: assets/north-star.png
+  icon:
+    repo: simple/github
+    logo: octicons/north-star-16
+  palette:
+    primary: teal
+    accent: teal
+  name: material
+  features:
+    # - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+    - naivgation.tracking
+    - navigation.indexes
+    - navigation.top
+    - navigation.expand
+
+extra_css:
+  - css/publication.css
+  - css/lang.css
+  - css/entry-type.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - js/tablesort.js
+#   - js/publication.js
+extra:
+  generator: false
+  social:
+    - icon: simple/github
+      link: https://github.com/nlplk/nlplk.github.io
+nav:
+  - Overview: overview/index.md
+  - Research Publications: publication/index.md
+  - Datasets: dataset/index.md
+  - Tools: tool/index.md
+  - Research groups: group/index.md
+  - Contibuting Guide:
+      - contribute/index.md
+      - Research Publications: contribute/publication/index.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - markdown_include.include:
+      base_path: docs
+plugins:
+  - publications-sort

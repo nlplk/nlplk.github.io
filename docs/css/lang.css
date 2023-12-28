@@ -1,0 +1,17 @@
+/** @format */
+
+red-text-bracket,
+lang {
+  display: inline-block;
+  color: red;
+}
+
+red-text-bracket::before,
+lang::before {
+  content: '[';
+}
+
+red-text-bracket::after,
+lang::after {
+  content: '] ';
+}
