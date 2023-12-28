@@ -1,0 +1,40 @@
+site_name: nlp-lk
+theme:
+  # custom_dir: overrides
+  favicon: assets/north-star.png
+  icon:
+    repo: simple/github
+    logo: octicons/north-star-16
+  palette:
+    primary: teal
+    accent: teal
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - naivgation.tracking
+    - naivgation.tabs
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+extra_css:
+  - css/publication.css
+  - css/lang.css
+  - css/entry-type.css
+# extra_javascript:
+#   - js/publication.js
+extra:
+  generator: false
+nav:
+  - Overview: overview/index.md
+  - Research Publications: publication/index.md
+  - Datasets: dataset/index.md
+  - Tools: tool/index.md
+  - Research groups: group/index.md
+  - Contibuting Guide: contribute/index.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

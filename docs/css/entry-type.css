@@ -1,0 +1,16 @@
+/** @format */
+
+blue-text-bracket,
+entry-type {
+  color: purple;
+}
+
+blue-text-bracket::before,
+entry-type::before {
+  content: '[';
+}
+
+red-text-bracket::after,
+entry-type::after {
+  content: '] ';
+}

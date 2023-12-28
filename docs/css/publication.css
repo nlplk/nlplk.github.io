@@ -1,0 +1,67 @@
+/** @format */
+
+bibtex-copy {
+  color: orange;
+  transition: 0s 5s;
+
+  &:hover {
+    cursor: copy;
+  }
+
+  &:active {
+    cursor: copy;
+    color: green;
+    transition: 0s;
+  }
+
+  &::before {
+    content: '[';
+  }
+
+  &::after {
+    content: 'copy-bibtex] ';
+  }
+}
+
+a.pub-link {
+  color: #4051b5;
+
+  &::before {
+    content: '[';
+  }
+
+  &::after {
+    content: '] ';
+  }
+
+  &[data-type='paper-link']::after {
+    content: 'link-to-paper] ';
+  }
+
+  &[data-type='download-bib']::after {
+    content: 'download-bibtex] ';
+  }
+}
+
+pub-title {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+pub-authors {
+  font-style: italic;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+}
+
+pub-year {
+  color: green;
+
+  &::before {
+    content: '[';
+  }
+
+  &::after {
+    content: '] ';
+  }
+}
