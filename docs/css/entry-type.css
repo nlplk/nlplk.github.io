@@ -2,6 +2,7 @@
 
 blue-text-bracket,
 entry-type {
+  display: inline-block;
   color: purple;
 }
 

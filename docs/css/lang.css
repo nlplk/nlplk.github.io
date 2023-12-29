@@ -2,6 +2,7 @@
 
 red-text-bracket,
 lang {
+  display: inline-block;
   color: red;
 }
 

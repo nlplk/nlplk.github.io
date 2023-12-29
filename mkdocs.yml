@@ -24,7 +24,9 @@ extra_css:
   - css/publication.css
   - css/lang.css
   - css/entry-type.css
-# extra_javascript:
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - js/tablesort.js
 #   - js/publication.js
 extra:
   generator: false
@@ -41,6 +43,9 @@ nav:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - markdown_include.include:
+      base_path: docs

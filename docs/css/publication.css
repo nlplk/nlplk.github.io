@@ -1,6 +1,7 @@
 /** @format */
 
 bibtex-copy {
+  display: inline-block;
   color: orange;
   transition: 0s 5s;
 
@@ -24,6 +25,7 @@ bibtex-copy {
 }
 
 a.pub-link {
+  display: inline-block;
   color: #4051b5;
 
   &::before {
@@ -55,6 +57,7 @@ pub-authors {
 }
 
 pub-year {
+  display: inline-block;
   color: green;
 
   &::before {
