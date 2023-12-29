@@ -1,4 +1,7 @@
 site_name: nlp-lk
+site_url: https://nlplk.github.io/
+repo_url: https://github.com/nlplk/nlplk.github.io/
+repo_name: nlplk/nlplk.github.io
 theme:
   # custom_dir: overrides
   favicon: assets/north-star.png
@@ -25,6 +28,9 @@ extra_css:
 #   - js/publication.js
 extra:
   generator: false
+  social:
+    - icon: simple/github
+      link: https://github.com/nlplk/nlplk.github.io
 nav:
   - Overview: overview/index.md
   - Research Publications: publication/index.md
