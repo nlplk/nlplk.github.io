@@ -1,6 +1,7 @@
+<publication>
 <pub-title>Survey on Publicly Available Sinhala Natural Language Processing Tools and Research</pub-title><br/>
 <pub-authors>Nisansa de Silva</pub-authors><br/>
-<pub-year>19 April 2024</pub-year>
+<pub-year>2024</pub-year>
 <lang>si, ta</lang> 
 <entry-type>misc</entry-type>
 [:octicons-link-16:](https://arxiv.org/abs/1906.02358){.pub-link data-type='paper-link'}
@@ -14,3 +15,4 @@
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/1906.02358}, 
 }'>:fontawesome-solid-quote-left:</bibtex-copy>
+</publication>

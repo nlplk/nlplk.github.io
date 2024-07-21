@@ -1,6 +1,7 @@
+<publication>
 <pub-title>ColabFold: making protein folding accessible to all</pub-title><br/>
 <pub-authors>Milot Mirdita, Konstantin Schütze, Yoshitaka Moriwaki, Lim Heo, Sergey Ovchinnikov, Martin Steinegger </pub-authors><br/>
-<pub-year>30 May 2022</pub-year> 
+<pub-year>2022</pub-year> 
 <lang>ta, si</lang> 
 <entry-type>article</entry-type> 
 [:octicons-link-16:](https://aclanthology.org/D19-1632/){.pub-link data-type='paper-link'}
@@ -15,3 +16,4 @@
   pages    ={679--682},
   month    =  jun,
   year     =  2022}'>:fontawesome-solid-quote-left:</bibtex-copy>
+</publication>

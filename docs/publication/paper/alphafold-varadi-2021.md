@@ -1,6 +1,7 @@
+<publication>
 <pub-title>AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models</pub-title><br/>
 <pub-authors>Mihaly Varadi, Stephen Anyango, Mandar Deshpande, Sreenath Nair, Cindy Natassia, Galabina Yordanova, David Yuan, Oana Stroe, Gemma Wood, Agata Laydon, Augustin Žídek, Tim Green, Kathryn Tunyasuvunakool, Stig Petersen, John Jumper, Ellen Clancy, Richard Green, Ankur Vora, Mira Lutfi, Michael Figurnov, Andrew Cowie, Nicole Hobbs, Pushmeet Kohli, Gerard Kleywegt, Ewan Birney, Demis Hassabis, Sameer Velankar</pub-authors><br/>
-<pub-year>17 November 2021</pub-year>
+<pub-year>2020</pub-year>
 <lang>si, ta</lang> 
 <entry-type>article</entry-type>
 [:octicons-link-16:](https://academic.oup.com/nar/article/50/D1/D439/6430488){.pub-link data-type='paper-link'}
@@ -19,3 +20,4 @@
   doi = {10.1093/nar/gkab1061},
   url = {https://doi.org/10.1093/nar/gkab1061},
   eprint = {https://academic.oup.com/nar/article-pdf/50/D1/D439/43502749/gkab1061.pdf}}'>:fontawesome-solid-quote-left:</bibtex-copy>
+</publication>
