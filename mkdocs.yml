@@ -13,13 +13,14 @@ theme:
     accent: teal
   name: material
   features:
+    # - navigation.tabs
     - navigation.instant
     - navigation.instant.progress
     - naivgation.tracking
-    - naivgation.tabs
     - navigation.indexes
-    - navigation.path
     - navigation.top
+    - navigation.expand
+
 extra_css:
   - css/publication.css
   - css/lang.css
@@ -39,7 +40,9 @@ nav:
   - Datasets: dataset/index.md
   - Tools: tool/index.md
   - Research groups: group/index.md
-  - Contibuting Guide: contribute/index.md
+  - Contibuting Guide:
+      - contribute/index.md
+      - Research Publications: contribute/publication/index.md
 markdown_extensions:
   - attr_list
   - md_in_html

@@ -1,4 +1,6 @@
-<!-- @format -->
+---
+icon: material/book
+---
 
 # Research Publications
 
