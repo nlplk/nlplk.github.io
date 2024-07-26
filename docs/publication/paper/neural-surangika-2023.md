@@ -2,7 +2,6 @@
   <pub-title>Neural machine translation for low-resource languages: A survey</pub-title><br/>
   <pub-authors>Surangika Ranathunga, En-Shiun Annie Lee, Marjana Prifti Skenduli, Ravi Shekhar, Mehreen Alam, Rishemjit Kaur</pub-authors><br/>
   <pub-year>2023</pub-year>
-  <!-- <lang></lang>  -->
   <entry-type>article</entry-type>
   [:octicons-link-16:](https://dl.acm.org/doi/abs/10.1145/3567592){.pub-link data-type='paper-link'}
   [:fontawesome-solid-quote-left:](/publication/bib/neural-surangika-2023.bib){.pub-link data-type='download-bib' download='<<-- file name after download -->>'}
