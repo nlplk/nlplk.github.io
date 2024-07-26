@@ -2,12 +2,21 @@ name: ci
 on:
   push:
     branches:
-      - master
+      - dev
+  pull_request:
+    types:
+      - opened
+    branches:
+      - dev
+
 permissions:
   contents: write
+  pull-requests: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
@@ -29,3 +38,24 @@ jobs:
           pip install markdown-include
           pip install ./plugins/.
       - run: mkdocs gh-deploy --force
+
+  build:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - uses: actions/cache@v3
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: |
+          pip install mkdocs-material
+          pip install markdown-include
+          pip install ./plugins/.
+      - run: mkdocs build
