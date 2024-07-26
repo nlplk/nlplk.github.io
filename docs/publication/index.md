@@ -18,4 +18,4 @@ Tags are also used to show the type of publication. The BibTeX entry types are u
 
 {!publication/paper/survey-desilva-2024.md!}
 
-{!publication/paper/alphafold-varadi-2021.md!}
+{!publication/paper/neural-surangika-2023.md!}
