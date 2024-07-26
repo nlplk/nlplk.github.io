@@ -15,5 +15,3 @@ Tags are also used to show the type of publication. The BibTeX entry types are u
 
 ---
 {!publication/paper/colabfold-mirdita-2022.md!}
-
-{!publication/paper/colabfold-mirdita-2022.md!}
