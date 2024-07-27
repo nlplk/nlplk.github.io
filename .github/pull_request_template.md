@@ -2,6 +2,7 @@
 PR author checklist
 - Add a meaningful PR title
 - Add required tags
+- Add screenshot of the entry after the build (if applicable)
 ---
 ## Description 
 Provide a description of the change done.
