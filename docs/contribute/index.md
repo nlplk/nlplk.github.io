@@ -13,7 +13,7 @@ Resource recommendations are also encouraged. In order to recommend addition of 
 It is encouraged to contribute by directly making the change if possible as this will reduce the effort of the maintainers.
 
 See detailed contributing guide for each of the sections(resource type) here:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. [Research Publications](./research/index.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. [Research Publications](./publication/index.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Datasets  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Tools  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Research groups
